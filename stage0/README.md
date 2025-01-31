@@ -2,6 +2,10 @@
 
 This is a simple API for HNG12 Stage 0 that returns JSON with the email, current UTC datetime, and the GitHub repository link.
 
+## 🚀 Live API URL
+
+[https://hng-stage0-umoru.vercel.app/](https://hng-stage0-umoru.vercel.app/)
+
 ## 📌 API Endpoint
 
 `GET /`
