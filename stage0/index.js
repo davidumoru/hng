@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json({
+  res.status(200).json({
     email: "umorudavido@gmail.com",
     current_datetime: new Date().toISOString(),
     github_url: "https://github.com/davidumoru/hng/tree/main/stage0",
